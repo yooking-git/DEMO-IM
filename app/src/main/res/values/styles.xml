@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--圆角矩形图片-->
+    <declare-styleable name="CircleImageView">
+        <attr name="circle" format="boolean" />
+        <attr name="radius" format="dimension" />
+        <attr name="border_width" />
+        <attr name="border_color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item
+            android:id="@+id/action_chat_user"
+            android:orderInCategory="100"
+            android:title="切换帐号"
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/action_chat_friend"
+            android:orderInCategory="100"
+            android:title="切换好友"
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/action_chat_about"
+            android:orderInCategory="100"
+            android:title="关于"
+            app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:titleTextColor="@android:color/white"/>
+
+
+    <com.yooking.socket.widget.CircleImageView
+            android:layout_marginTop="40dp"
+            android:id="@+id/iv_head"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/app"
+            app:border_color="@android:color/transparent"
+            app:border_width="0dp"
+            app:circle="false"
+            app:radius="8dp"
+    />
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="聊天消息不记录，一经退出去无踪"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/et_login_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入您的昵称"
+    />
+
+    <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_login_friend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入对方昵称"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tv_login_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="login"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
